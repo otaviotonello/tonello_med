@@ -1,6 +1,6 @@
 package med.Tonello.api.paciente;
 
-import med.Tonello.api.endereco.Endereco;
+import med.Tonello.api.endereco.DadosEndereco;
 
-public record DadosCadastroPaciente(String nome, String email, String telefone, String cpf, Endereco endereco) {
+public record DadosCadastroPaciente(String nome, String email, String telefone, String cpf, DadosEndereco dadosEndereco) {
 }
